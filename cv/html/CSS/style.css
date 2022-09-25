@@ -77,3 +77,33 @@ body {
 span {
   color: #2bd6b4;
 }
+
+
+div.text {
+  padding: 30px 30px 30px 30px;
+  border-radius: 20px;
+  background-color: #38516a;
+  max-width: 600px;
+  height: 600px;
+  color: #dddada;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+li.courses {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+ol {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+h1.courses {
+  font-family:'Times New Roman', Times, serif;
+}
+h2.courses {
+  font-family:'Times New Roman', Times, serif;
+  margin-top: 50px;
+}
