@@ -1,0 +1,109 @@
+nav {
+  margin: 27px auto 0;
+  position: relative;
+  width: 590px;
+  height: 50px;
+  background-color: #34495e;
+  border-radius: 0;
+  font-size: 0;
+  border-radius: 20px;
+}
+nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+nav .animation{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 20px;
+}
+a:nth-child(1){
+  width: 100px;
+}
+a:nth-child(2){
+  width: 90px;
+}
+a:nth-child(3){
+  width: 100px;
+}
+a:nth-child(4){
+  width: 140px;
+}
+a:nth-child(5){
+  width: 160px;
+}
+nav .start-me, a:nth-child(1):hover~.animation {
+  width: 100px;
+  left: 0px;
+  background-color: #966855;
+}
+nav .start-me, a:nth-child(2):hover~.animation {
+  width: 90px;
+  left: 100px;
+  background-color: #e74c3c;
+}
+nav .start-courses, a:nth-child(3):hover~.animation {
+  width: 100px;
+  left: 190px;
+  background-color: #3498db;
+}
+nav .start-intrests, a:nth-child(4):hover~.animation {
+  width: 140px;
+  left: 290px;
+  background-color: #9b59b6;
+}
+nav .start-documentation, a:nth-child(5):hover~.animation {
+  width: 160px;
+  left: 430px;
+  background-color: #e67e22;
+}
+body {
+  font-size: 12px;
+  font-family: sans-serif;
+  background: #2c3e50;
+}
+span {
+  color: #2bd6b4;
+}
+
+
+div.text {
+  padding: 30px 30px 30px 30px;
+  border-radius: 20px;
+  background-color: #38516a;
+  max-width: 600px;
+  height: 600px;
+  color: #dddada;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#courses {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+ol {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+h1.courses {
+  font-family:'Times New Roman', Times, serif;
+}
+h2.courses {
+  font-family:'Times New Roman', Times, serif;
+  margin-top: 50px;
+}
