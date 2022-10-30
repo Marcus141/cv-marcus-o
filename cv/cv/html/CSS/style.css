@@ -12,12 +12,12 @@ nav a {
   line-height: 50px;
   height: 100%;
   font-size: 15px;
-  display: inline-block;
+  display: inline-flex;
   position: relative;
   z-index: 1;
   text-decoration: none;
   text-transform: uppercase;
-  text-align: center;
+  justify-content: center;
   color: white;
   cursor: pointer;
 }
@@ -26,24 +26,16 @@ nav .animation {
   height: 100%;
   top: 0;
   z-index: 0;
-  transition: all .5s ease 0s;
+  transition: all .25s ease 0s;
   border-radius: 20px;
 }
-a:nth-child(1){
-  width: 100px;
-}
-a:nth-child(2){
-  width: 90px;
-}
-a:nth-child(3){
-  width: 100px;
-}
-a:nth-child(4){
-  width: 140px;
-}
-a:nth-child(5){
-  width: 160px;
-}
+
+a:nth-child(1){width: 100px;}
+a:nth-child(2){width:  90px;}
+a:nth-child(3){width: 100px;}
+a:nth-child(4){width: 140px;}
+a:nth-child(5){width: 160px;}
+
 nav .start-me, a:nth-child(1):hover~.animation {
   width: 100px;
   left: 0px;
@@ -74,9 +66,7 @@ body {
   font-family: sans-serif;
   background: #2c3e50;
 }
-span {
-  color: #2bd6b4;
-}
+
 
 
 div.text {
@@ -94,7 +84,6 @@ div.text {
   margin-bottom: 10px;
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
-
 }
 ul {
   font-family: 'Times New Roman', Times, serif;
